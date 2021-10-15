@@ -2,7 +2,7 @@
 ZeroBot-Plugin-Dynamic 的动态库插件。
 
 # 使用方法
-- **每日运势** `github.com/FloatTech/ZeroBot-Plugin/plugin_fortune`
+- **每日运势** `import _ github.com/FloatTech/ZeroBot-Plugin/plugin_fortune`
     - [x] 运势|抽签
     - [x] 设置底图[车万 DC4 爱因斯坦 星空列车 樱云之恋 富婆妹 李清歌 公主连结 原神 明日方舟 碧蓝航线 碧蓝幻想 战双 阴阳师]
 ### 编译
