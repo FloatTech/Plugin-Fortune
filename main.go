@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"os"
 	"strconv"
 	"time"
@@ -81,7 +80,6 @@ func Inita() {
 				// 个人用户设为负数
 				gid = -ctx.Event.UserID
 			}
-			fmt.Println("[fortune]gid:", ctx.Event.GroupID, "uid:", ctx.Event.UserID)
 			if v, ok := conf.Kind[gid]; ok {
 				kind = table[v]
 			}
