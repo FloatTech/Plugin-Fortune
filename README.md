@@ -1,10 +1,11 @@
-# Plugin-Template
-为 ZeroBot-Plugin-Dynamic 生成动态库插件。
+# Plugin-Fortune
+ZeroBot-Plugin-Dynamic 的动态库插件。
 
 # 使用方法
-### 编写插件
-复制`main.go`到本地或使用[模版](https://github.com/FloatTech/Plugin-Template)，修改`main.go`的`Inita`函数为插件内容，语法与[ZeroBot](https://github.com/wdvxdr1123/ZeroBot)基本相同。
-### 编译为动态库
+- **每日运势** `github.com/FloatTech/ZeroBot-Plugin/plugin_fortune`
+    - [x] 运势|抽签
+    - [x] 设置底图[车万 DC4 爱因斯坦 星空列车 樱云之恋 富婆妹 李清歌 公主连结 原神 明日方舟 碧蓝航线 碧蓝幻想 战双 阴阳师]
+### 编译
 #### 使用Actions编译
 1. fork 本仓库
 2. 上传修改后的`main.go`及其它新增文件。
