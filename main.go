@@ -15,7 +15,7 @@ import (
 )
 
 func Inita() {
-	// -------------在此下书写插件内容-------------
+	// --------------------------在此下书写插件内容--------------------------
 	err := loadcfg("cfg.pb")
 	if err != nil {
 		panic(err)
@@ -130,10 +130,10 @@ func Inita() {
 			// 发送图片
 			ctx.SendChain(message.Image("base64://" + helper.BytesToString(d)))
 		})
-	// -------------在此上书写插件内容-------------
+	// --------------------------在此上书写插件内容--------------------------
 }
 
-// 以下勿动
+// --------------------------以下勿动--------------------------
 // Hook 改变本插件的环境变量以加载插件
 func Hook(botconf interface{}, apicallers interface{}, hooknew interface{},
 	matlist interface{}, matlock interface{}, defen interface{},
