@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	control "github.com/FloatTech/zbpctrl"
+	control "github.com/FloatTech/zbputils/control"
 	"github.com/FloatTech/zbputils/file"
 	"github.com/FloatTech/zbputils/math"
 	"github.com/fogleman/gg"
